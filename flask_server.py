@@ -2,10 +2,10 @@ from flask import Flask, send_from_directory, request, render_template, redirect
 import os
 
 app = Flask(__name__)
-app.secret_key = "your_secret_key"  # Required for flashing messages
+app.secret_key = "your_secret_key"  
 
 # Directory to share
-SHARED_FOLDER = "C:/Users/ali_z/OneDrive/Desktop/shared"
+SHARED_FOLDER = "your_shared_folder"
 
 
 @app.route('/')
